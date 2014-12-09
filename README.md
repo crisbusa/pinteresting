@@ -1,6 +1,6 @@
-#sample fore one month course
+#Sample for _one month_ course
 
 Im learning to code using onemonth
 
-[*onemonth*](http://onemonth.com)
+[*one month*](http://onemonth.com)
 
