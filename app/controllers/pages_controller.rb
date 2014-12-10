@@ -5,6 +5,5 @@ class PagesController < ApplicationController
   end
   def contact
   end
-  def music
-  end
+ 
 end
