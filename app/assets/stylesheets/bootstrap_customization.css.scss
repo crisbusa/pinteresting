@@ -2,8 +2,9 @@
 
 
 
-$body-bg: #F0F0F0;
+$body-bg: #FAFAFA;
 $font-family-sans-serif: 'Didact Gothic', sans-serif;
+$navbar-height:                                        45px;
 $link-color: #34495e;
 $navbar-default-link-color: white;
 $navbar-default-bg: #e67e22;
@@ -12,6 +13,14 @@ $jumbotron-bg: #e67e22;
 $nav-link-hover-bg: #F0F0F0;
 
 
+.center {
+	text-align:center;
+	}
+
+
+.navbar-brand {
+     font-weight: bold;
+}
 
 
 
