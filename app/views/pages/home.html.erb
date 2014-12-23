@@ -2,11 +2,18 @@
 <div class="jumbotron center">
 	<div class="container">
 	<center>
-<h1>A new way to tease your friends</h1>
-	
-<p2><%= link_to "Log in", "#", class: "btn btn-default btn-lg"%>
-	<%= link_to "Sign up!", "#", class: "btn btn-default btn-lg"%>
+<h1>A new way to tease your friends.</h1>
+
+<% if user_signed_in?%>
+<h2>Enjoy!<h2>
+<%else%>
+
+
+<p2><%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg"%>
+	<%= link_to "Sign up!", new_user_registration_path, class: "btn btn-default btn-lg"%>
 </p2>
+
+<% end %>
 
 </center>
 </div>
